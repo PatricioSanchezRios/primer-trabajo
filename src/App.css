@@ -1,0 +1,32 @@
+
+.header{
+  text-align: center;
+  color: blue;
+  background-color: whitesmoke;
+  margin-bottom: 0%;
+}
+
+.Footer{
+  margin-top: 200px;
+  padding: 100px;
+  background-color: rgb(192, 189, 189);
+  display: flex;
+
+  justify-content: space-evenly;
+
+}
+
+.tarjeta{
+  margin: color black;
+  padding: 100px;
+  background-color: black;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    display: none;
+  }
+  .footer {
+    padding-left: 0px;
+  }
+}
