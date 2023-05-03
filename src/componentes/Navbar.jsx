@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Carrito from './Carrito'
 const Navbar = () => {
   return (<nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -24,9 +24,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <div>
-        <i className="fa-solid fa-cart-shopping fa-2xl"></i>
-    </div>
+    <Carrito/>
   </div>
 </nav>
   )

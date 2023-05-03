@@ -21,6 +21,10 @@
   padding: 100px;
   background-color: black;
 }
+.carroCompras{
+  max-height: 30px;
+  max-width: 30px;
+}
 
 @media screen and (max-width: 992px) {
   .header {
